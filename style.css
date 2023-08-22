@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: lightskyblue;
+}
+
+
+.main-div{
+    width: 350px;
+    border-radius: 15px;
+    background-color: aliceblue;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 4px 5px 5px 4px black;
+    
+}
+
+.fa-solid{
+    font-size: 30px;
+    margin-top: 33px;
+    width: 30px;
+}
+.box-class input{
+    width: 100px;
+    height: 45px;
+    border-radius: 7px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.box-class h3{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
